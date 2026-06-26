@@ -97,7 +97,7 @@ const UI = {
   // Expand or collapse all answers
   expandAll() {
     const collapseElements = document.querySelectorAll('.collapse');
-    const expandButtons = document.querySelectorAll('.btn-card-action[data-bs-toggle="collapse"]');
+    const triggers = document.querySelectorAll('.question-toggle-trigger');
     
     collapseElements.forEach(el => {
       if (!el.classList.contains('show')) {
@@ -106,16 +106,14 @@ const UI = {
       }
     });
 
-    expandButtons.forEach(btn => {
-      btn.innerHTML = '<i class="fas fa-chevron-up"></i> Collapse';
-      btn.classList.add('active-expand');
-      btn.setAttribute('aria-expanded', 'true');
+    triggers.forEach(trigger => {
+      trigger.setAttribute('aria-expanded', 'true');
     });
   },
 
   collapseAll() {
     const collapseElements = document.querySelectorAll('.collapse');
-    const expandButtons = document.querySelectorAll('.btn-card-action[data-bs-toggle="collapse"]');
+    const triggers = document.querySelectorAll('.question-toggle-trigger');
     
     collapseElements.forEach(el => {
       if (el.classList.contains('show')) {
@@ -124,10 +122,8 @@ const UI = {
       }
     });
 
-    expandButtons.forEach(btn => {
-      btn.innerHTML = '<i class="fas fa-chevron-down"></i> Expand';
-      btn.classList.remove('active-expand');
-      btn.setAttribute('aria-expanded', 'false');
+    triggers.forEach(trigger => {
+      trigger.setAttribute('aria-expanded', 'false');
     });
   }
 };

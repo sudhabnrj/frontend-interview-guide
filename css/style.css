@@ -191,12 +191,53 @@ body {
   align-items: center;
 }
 
+.question-toggle-trigger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  border-radius: var(--radius-sm);
+  transition: var(--transition-fast);
+}
+
+.question-toggle-trigger:hover .card-title-text {
+  color: var(--color-primary);
+}
+
 .card-title-text {
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 1.4;
   color: var(--text-primary);
   margin-bottom: 0;
+  transition: var(--transition-fast);
+}
+
+.collapse-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--border-light);
+  color: var(--text-muted);
+  transition: var(--transition-smooth);
+  flex-shrink: 0;
+}
+
+.question-toggle-trigger:hover .collapse-arrow {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+}
+
+.question-toggle-trigger[aria-expanded="true"] .collapse-arrow {
+  transform: rotate(180deg);
+  background-color: var(--color-primary);
+  color: #ffffff;
 }
 
 .card-meta {
@@ -491,4 +532,9 @@ mark.search-highlight {
     color: #0f172a !important;
     border: 1px solid #cbd5e1 !important;
   }
+}
+@media(max-width: 575px){
+  .offcanvas-title{
+  font-size: 1.2rem;
+}
 }

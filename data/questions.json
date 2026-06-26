@@ -3,56 +3,56 @@
     "id": 1,
     "category": "AI",
     "question": "what is vibe coading?",
-    "answer": "Vibe Coding is a modern way of building software where you describe\nwhat you want in plain English and an AI generates most of the code for\nyou.\nInstead of writing every line manually, you focus on:\n- The idea\n- The features\n- The user experience\nAnd the AI writes the implementation.",
+    "answer": "Vibe Coding is a modern way of building software where you describe what you want in plain English and an AI generates most of the code for you. \nInstead of writing every line manually, you focus on:\n- The idea\n- The features\n- The user experience\nAnd the AI writes the implementation.",
     "diagrams": []
   },
   {
     "id": 2,
     "category": "AI",
     "question": "What is Artificial Intelligence (AI)?",
-    "answer": "Artiﬁcial Intelligence (AI) is a technology that enables machines and\ncomputers to perform tasks that typically require human intelligence. It\nallows systems to learn from data, recognize patterns, and make decisions to\nsolve complex problems.",
+    "answer": "Artiﬁcial Intelligence (AI) is a technology that enables machines and computers to perform tasks that typically require human intelligence. It allows systems to learn from data, recognize patterns, and make decisions to solve complex problems.",
     "diagrams": []
   },
   {
     "id": 3,
     "category": "AI",
     "question": "What is LLM? How do LLMs generate responses?",
-    "answer": "LLM (Large Language Model) is an AI model trained on huge amounts of text data.\nIt generates responses by:\n1. Reading your prompt.\n2. Breaking text into tokens.\n3. Predicting the most likely next token.\n4. Repeating the process until a complete answer is formed.\nExample:\nInput:\nReact is a JavaScript _____\nLLM predicts:\nlibrary",
+    "answer": "LLM (Large Language Model) is an AI model trained on huge amounts of text data. It generates responses by:\n1. Reading your prompt.\n2. Breaking text into tokens.\n3. Predicting the most likely next token.\n4. Repeating the process until a complete answer is formed.\nExample: Input: React is a JavaScript _____ LLM predicts: library",
     "diagrams": []
   },
   {
     "id": 4,
     "category": "AI",
     "question": "Difference Between Artificial Intelligence vs Machine Learning vs Deep Learning?",
-    "answer": "Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL) are closely related\ntechnologies that enable machines to perform intelligent tasks. AI is the broader concept of\ncreating intelligent systems, ML is a subset of AI that learns from data, and DL is a specialized\nsubset of ML that uses neural networks to learn complex patterns.",
+    "answer": "Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL) are closely related technologies that enable machines to perform intelligent tasks. AI is the broader concept of creating intelligent systems, ML is a subset of AI that learns from data, and DL is a specialized subset of ML that uses neural networks to learn complex patterns.",
     "diagrams": []
   },
   {
     "id": 5,
     "category": "AI",
     "question": "What are Hallucinations?",
-    "answer": "Hallucinations occur when an AI model generates information that sounds correct and\nconfident but is actually false, inaccurate, or completely made up.\nWhy Do Hallucinations Happen?\n1. Incomplete training data\n2. Ambiguous questions\n3. Lack of up-to-date information\n4. The model predicts likely text, not verified facts\n5. Missing context\nHow to Reduce Hallucinations?\n- Verify information from official documentation.\n- Cross-check code examples.\n- Use Retrieval-Augmented Generation (RAG).\n- Provide clear and detailed prompts.\n- Ask the model for sources or references.",
+    "answer": "Hallucinations occur when an AI model generates information that sounds correct and confident but is actually false, inaccurate, or completely made up. Why Do Hallucinations Happen?\n1. Incomplete training data\n2. Ambiguous questions\n3. Lack of up-to-date information\n4. The model predicts likely text, not verified facts\n5. Missing context\nHow to Reduce Hallucinations?\n- Verify information from official documentation.\n- Cross-check code examples.\n- Use Retrieval-Augmented Generation (RAG).\n- Provide clear and detailed prompts.\n- Ask the model for sources or references.",
     "diagrams": []
   },
   {
     "id": 6,
     "category": "AI",
     "question": "What is a Context Window?",
-    "answer": "A context window is the amount of information (measured in tokens) that an AI model can\nremember and use at one time while generating a response.\nThink of it as the AI's short-term memory during a conversation.\nSimple Example\nImagine you're talking to a friend.\nYou say:\nLater you ask:\nWhat's my name?\nSimilarly, an AI remembers information that fits within its context window.",
+    "answer": "A context window is the amount of information (measured in tokens) that an AI model can remember and use at one time while generating a response. Think of it as the AI's short-term memory during a conversation. Simple Example Imagine you're talking to a friend. You say: Later you ask: What's my name? Similarly, an AI remembers information that fits within its context window.",
     "diagrams": []
   },
   {
     "id": 7,
     "category": "AI",
     "question": "What is a Token?",
-    "answer": "In AI (especially Large Language Models like ChatGPT), a token is a small unit of text.\nA token can be:\n- A word\n- Part of a word\n- A punctuation mark\n- A number\n- A symbol\nExample\nI love React.\nMay be split into tokens like:\n[\"I\", \" love\", \" React\", \".\"]",
+    "answer": "In AI (especially Large Language Models like ChatGPT), a token is a small unit of text. A token can be:\n- A word\n- Part of a word\n- A punctuation mark\n- A number\n- A symbol\nExample I love React. May be split into tokens like: [\"I\", \" love\", \" React\", \".\"]",
     "diagrams": []
   },
   {
     "id": 8,
     "category": "AI",
     "question": "What is CRISP Prompting?",
-    "answer": "CRISP Prompting is a framework for writing clear and effective AI prompts so the AI\nproduces more accurate, structured, and useful responses.\nEach letter represents an important part of a good prompt.\nExample:\nContext: I am building a Figma Clone using Next.js 16.\nRole: Act as a Senior Frontend Architect.\nInstructions: Create a responsive dashboard layout with authentication and protected\nroutes.\nSpecifics: Use TypeScript, Tailwind CSS, App Router, reusable components, clean folder\nPurpose: The project should be scalable, maintainable, and suitable for a production\napplication.",
+    "answer": "CRISP Prompting is a framework for writing clear and effective AI prompts so the AI produces more accurate, structured, and useful responses. \nEach letter represents an important part of a good prompt. \nExample: \nContext: I am building a Figma Clone using Next.js 16. \nRole: Act as a Senior Frontend Architect. \nInstructions: Create a responsive dashboard layout with authentication and protected routes. \nSpecifics: Use TypeScript, Tailwind CSS, App Router, reusable components, clean folder \nPurpose: The project should be scalable, maintainable, and suitable for a production application.",
     "diagrams": [
       "assets/images/14.png"
     ]
@@ -60,29 +60,29 @@
   {
     "id": 9,
     "category": "AI",
-    "question": "What is CRISP Prompting?",
-    "answer": "A good prompt is clear, specific, and provides enough context for the AI to understand\nexactly what you want.\nA bad prompt is vague, incomplete, or ambiguous, forcing the AI to guess your intent.\nBad Prompt\nCreate a login page.\nGood Prompt\nAct as a Senior React Developer. Create a responsive login page using React,\nTypeScript, and Tailwind CSS. Include email and password fields, form\nvalidation, error messages, a loading state, and accessibility best practices.\nWrite clean, reusable code.",
+    "question": "What is Good prompt?",
+    "answer": "A good prompt is clear, specific, and provides enough context for the AI to understand exactly what you want. \nA bad prompt is vague, incomplete, or ambiguous, forcing the AI to guess your intent. \nBad Prompt Create a login page. \nGood Prompt Act as a Senior React Developer. Create a responsive login page using React, TypeScript, and Tailwind CSS. Include email and password fields, form validation, error messages, a loading state, and accessibility best practices. Write clean, reusable code.",
     "diagrams": []
   },
   {
     "id": 10,
     "category": "AI",
     "question": "What is Prompt Engineering?",
-    "answer": "Prompt Engineering is the skill of writing clear, structured, and effective prompts so an\nAI model produces accurate, relevant, and high-quality responses.",
+    "answer": "Prompt Engineering is the skill of writing clear, structured, and effective prompts so an AI model produces accurate, relevant, and high-quality responses.",
     "diagrams": []
   },
   {
     "id": 11,
     "category": "AI",
     "question": "What is Hallucination in AI?",
-    "answer": "Hallucination is when an AI generates incorrect information confidently. It is predicting the most\nlikely response based on patterns, and sometimes those predictions are wrong.\nWhy Does Hallucination Happen?\nSome common reasons are:\n- The incomplete prompt.\n- The AI lacks enough context.\n- The requested information wasn't part of its training or context.\n- The AI tries to fill in missing information instead of saying \"I don't know.\"\n1. Write Clear Prompts\nBad Prompt\nExplain React.\nGood Prompt\nExplain React Hooks with examples using React 19 and TypeScript.\nProvide Context\nInstead of:\nFix my code.\nWrite:\nI'm using React 19, TypeScript, and Vite. Here's the component and the error\nmessage.\nBreak Large Tasks into Smaller Steps\nInstead of:\nBuild a complete e-commerce website.\nTry:\n1. Create project structure.\n2. Build authentication.\n3. Create product listing.\n4. Add cart.\n5. Integrate payments.",
+    "answer": "Hallucination is when an AI generates incorrect information confidently. It is predicting the most likely response based on patterns, and sometimes those predictions are wrong. Why Does Hallucination Happen? Some common reasons are:\n- The incomplete prompt.\n- The AI lacks enough context.\n- The requested information wasn't part of its training or context.\n- The AI tries to fill in missing information instead of saying \"I don't know.\"\n1. Write Clear Prompts\nBad Prompt Explain React. Good Prompt Explain React Hooks with examples using React 19 and TypeScript. Provide Context Instead of: Fix my code. Write: I'm using React 19, TypeScript, and Vite. Here's the component and the error message. Break Large Tasks into Smaller Steps Instead of: Build a complete e-commerce website. Try:\n1. Create project structure.\n2. Build authentication.\n3. Create product listing.\n4. Add cart.\n5. Integrate payments.",
     "diagrams": []
   },
   {
     "id": 12,
     "category": "AI",
-    "question": "What is Hallucination in AI?",
-    "answer": "MCP stands for Model Context Protocol.\nAn MCP Server is a server that allows an AI model (like ChatGPT or Claude) to securely\nconnect to external tools, data sources, and services using a standard protocol.\nThink of it as a bridge between an AI and external systems.\nReal-Life Analogy\nImagine you're a frontend developer.\nNormally, if you ask an AI:\n\"Show me all the users in my database.\"\nBut if your company has an MCP Server connected to the database:\nYou\n│\n▼\nChatGPT / Claude\n│\n▼\nMCP Server\n│\n▼\nDatabase\nThe AI can request the data through the MCP Server (subject to permissions).\nHere is a comparison between an API and an MCP Server:\n\n| API | MCP Server |\n|---|---|\n| Used by applications | Used by AI assistants |\n| Developer calls endpoints | AI calls tools |\n| You must know API details | AI figures out which tool to use |\n| Returns raw data | AI can use the data to complete a task |\n| Example: `GET /products` | Example: `searchProducts()` |\n\nWhat Can an MCP Server Connect To?\nAn MCP Server can expose tools such as:\n- Local files\n- Databases\n- APIs\n- GitHub repositories\n- Google Drive\n- Slack\n- Google Calendar\n- Custom business applications\nWhy Use an MCP Server?\nStandard way for AI to connect to tools\nSecure access with permissions\nReusable across different AI applications\nEasier integration with company systems",
+    "question": "What is MCP Server?",
+    "answer": "MCP stands for Model Context Protocol. \nAn MCP Server is a server that allows an AI model (like ChatGPT or Claude) to securely connect to external tools, data sources, and services using a standard protocol. \nThink of it as a bridge between an AI and external systems. \nReal-Life Analogy Imagine you're a frontend developer. Normally, if you ask an AI: \"Show me all the users in my database.\" But if your company has an MCP Server connected to the database: You │ ▼ ChatGPT / Claude │ ▼ MCP Server │ ▼ Database The AI can request the data through the MCP Server (subject to permissions). \nHere is a comparison between an API and an MCP Server:\n\n| API | MCP Server |\n|---|---|\n| Used by applications | Used by AI assistants |\n| Developer calls endpoints | AI calls tools |\n| You must know API details | AI figures out which tool to use |\n| Returns raw data | AI can use the data to complete a task |\n| Example: `GET /products` | Example: `searchProducts()` |\n\nWhat Can an MCP Server Connect To? An MCP Server can expose tools such as:\n- Local files\n- Databases\n- APIs\n- GitHub repositories\n- Google Drive\n- Slack\n- Google Calendar\n- Custom business applications\nWhy Use an MCP Server? Standard way for AI to connect to tools Secure access with permissions Reusable across different AI applications Easier integration with company systems",
     "diagrams": [
       "assets/images/15.png"
     ]
@@ -91,7 +91,7 @@
     "id": 13,
     "category": "AI",
     "question": "What is AI Agent and Agentic AI and Generative AI?",
-    "answer": "Generative AI creates content based on your prompt.\nAn AI Agent can use tools to complete a task.\nAgentic AI plans and completes an entire goal with minimal human guidance.",
+    "answer": "Generative AI creates content based on your prompt. An AI Agent can use tools to complete a task. Agentic AI plans and completes an entire goal with minimal human guidance.",
     "diagrams": [
       "assets/images/17.png",
       "assets/images/18.png",
@@ -102,28 +102,28 @@
     "id": 14,
     "category": "UI / UX",
     "question": "What is low fedility and high fedility design ?",
-    "answer": "A low-fidelity design is a simple sketch or wireframe that focuses on layout, structure, and\nuser flow rather than colors, images, or visual details.\nHigh-fidelity design is a detailed, pixel-perfect representation of the final product, including\ncolors, typography, images, and interactions, used before development and for stakeholder\napproval.",
+    "answer": "A low-fidelity design is a simple sketch or wireframe that focuses on layout, structure, and user flow rather than colors, images, or visual details. High-fidelity design is a detailed, pixel-perfect representation of the final product, including colors, typography, images, and interactions, used before development and for stakeholder approval.",
     "diagrams": []
   },
   {
     "id": 15,
     "category": "UI / UX",
     "question": "what is ui & ux ? what are the difference between ui developer and ux developer?",
-    "answer": "UI (User Interface) is the visual part of a website or application that users interact with.\nIt includes:\n- Buttons\n- Forms\n- Navigation menus\n- Colors\n- Typography\n- Icons\n- Layouts\n- Animations\nExample\nIn an e-commerce website:\n- Product cards\n- Add to Cart button\n- Search bar\n- Header and Footer\nThese are all part of the UI.\nUX (User Experience) focuses on how users feel when using a product and how easily they\ncan achieve their goals.\nIt includes:\n- User research\n- User journey mapping\n- Information architecture\n- Wireframing\n- Usability testing\n- Accessibility\n- User flows\nExample\nIn an e-commerce website:\n- Can users find products quickly?\n- Is checkout simple?\n- How many steps are needed to place an order?\n- Are users getting confused?\nThese are UX concerns.\nA UI Developer converts designs into working web pages and applications.\nResponsibilities\n- Build responsive layouts\n- Write HTML, CSS, JavaScript\n- Develop React/Next.js components\n- Implement animations\n- Ensure cross-browser compatibility\n- Follow design specifications\nwhile a UX Designer researches user needs, creates wireframes, designs user flows, and\nimproves the overall user experience.\nBefore building an e-commerce checkout page, the UX Designer determines:\n- How many checkout steps should exist?\n- What information should be collected?\n- Where users typically abandon the process?",
+    "answer": "UI (User Interface) is the visual part of a website or application that users interact with. It includes:\n- Buttons\n- Forms\n- Navigation menus\n- Colors\n- Typography\n- Icons\n- Layouts\n- Animations\nExample In an e-commerce website:\n- Product cards\n- Add to Cart button\n- Search bar\n- Header and Footer\nThese are all part of the UI. UX (User Experience) focuses on how users feel when using a product and how easily they can achieve their goals. It includes:\n- User research\n- User journey mapping\n- Information architecture\n- Wireframing\n- Usability testing\n- Accessibility\n- User flows\nExample In an e-commerce website:\n- Can users find products quickly?\n- Is checkout simple?\n- How many steps are needed to place an order?\n- Are users getting confused?\nThese are UX concerns. A UI Developer converts designs into working web pages and applications. Responsibilities\n- Build responsive layouts\n- Write HTML, CSS, JavaScript\n- Develop React/Next.js components\n- Implement animations\n- Ensure cross-browser compatibility\n- Follow design specifications\nwhile a UX Designer researches user needs, creates wireframes, designs user flows, and improves the overall user experience. Before building an e-commerce checkout page, the UX Designer determines:\n- How many checkout steps should exist?\n- What information should be collected?\n- Where users typically abandon the process?",
     "diagrams": []
   },
   {
     "id": 16,
     "category": "UI / UX",
     "question": "how to make a responsive website",
-    "answer": "using tailwind css?\nstyles for larger screens using responsive breakpoints.\nTailwind Breakpoints\nsm: 640px and aabove\nmd: 768px and aabove\nlg: 1024px and above\nxl: 1280px and above\n2xl: 1536px and above",
+    "answer": "using tailwind css? styles for larger screens using responsive breakpoints. Tailwind Breakpoints sm: 640px and aabove md: 768px and aabove lg: 1024px and above xl: 1280px and above 2xl: 1536px and above",
     "diagrams": []
   },
   {
     "id": 17,
     "category": "UI / UX",
     "question": "What is Design Tokens?",
-    "answer": "spacing, border radius, shadows, and breakpoints.\n1. Color Tokens\n```json\n{\n\"color\": {\n\"primary\": \"#2563EB\",\n\"secondary\": \"#64748B\",\n\"success\": \"#22C55E\",\n\"danger\": \"#EF4444\"\n}\n}\n```\nUsage:\nbackground-color: var(--color-primary);",
+    "answer": "spacing, border radius, shadows, and breakpoints.\n1. Color Tokens\n\n```json\n{\n\"color\": {\n\"primary\": \"#2563EB\",\n\"secondary\": \"#64748B\",\n\"success\": \"#22C55E\",\n\"danger\": \"#EF4444\"\n}\n}\n```\nUsage: background-color: var(--color-primary);",
     "diagrams": []
   },
   {
@@ -146,63 +146,63 @@
     "id": 19,
     "category": "UI / UX",
     "question": "How to change the Bootstrap CSS default color?",
-    "answer": "a. Override Bootstrap CSS (Quick Method)\n.btn-primary {\nbackground-color: #ff5722;\nborder-color: #ff5722;\n}\n.btn-primary:hover {\nbackground-color: #e64a19;\n}\nb. Use CSS Variables (Bootstrap 5)\n```css\n:root {\n--bs-primary: #ff5722;\n}\n```\nc. Change Bootstrap SCSS Variables (Best Practice)\nBefore Importing Bootstrap\n```scss\n$primary: #ff5722;\n$secondary: #009688;\n$success: #4caf50;\n$danger: #f44336;\n@import \"bootstrap\";\n```\nBootstrap will generate all button, alert, badge, and utility classes using your custom colors.\n```scss\n$theme-colors: (\n\"primary\": #ff5722,\n\"secondary\": #607d8b,\n\"success\": #4caf50,\n\"danger\": #f44336,\n\"warning\": #ffc107,\n\"info\": #2196f3\n);\n```\nChange multiple theme color.",
+    "answer": "a. Override Bootstrap CSS (Quick Method) .btn-primary { background-color: #ff5722; border-color: #ff5722; } .btn-primary:hover { background-color: #e64a19; } b. Use CSS Variables (Bootstrap 5)\n\n```css\n:root {\n--bs-primary: #ff5722;\n}\n```\nc. Change Bootstrap SCSS Variables (Best Practice) Before Importing Bootstrap\n\n```scss\n$primary: #ff5722;\n$secondary: #009688;\n$success: #4caf50;\n$danger: #f44336;\n@import \"bootstrap\";\n```\nBootstrap will generate all button, alert, badge, and utility classes using your custom colors.\n\n```scss\n$theme-colors: (\n\"primary\": #ff5722,\n\"secondary\": #607d8b,\n\"success\": #4caf50,\n\"danger\": #f44336,\n\"warning\": #ffc107,\n\"info\": #2196f3\n);\n```\nChange multiple theme color.",
     "diagrams": []
   },
   {
     "id": 20,
     "category": "UI / UX",
     "question": "what is persona?",
-    "answer": "A Persona is a fictional representation of your target user, created based\non research, data, and assumptions.\nIt helps designers, developers, and product teams understand:\n- Who the users are\n- What they need\n- Their goals\n- Their frustrations\n- Their behavior\nSimple Example\nSuppose you're building a Local Tutor App (Localy).\nPersona\nName: Rahul Sharma\nAge: 32\nOccupation: Working Professional\nLocation: Kolkata\nGoals\n- Find a tutor near his home.\n- Compare tutor ratings.\nPain Points\n- Difficult to find trusted tutors.\n- No easy way to compare tutors.\nTech Skill\n- Comfortable with online payments.",
+    "answer": "A Persona is a fictional representation of your target user, created based on research, data, and assumptions. It helps designers, developers, and product teams understand:\n- Who the users are\n- What they need\n- Their goals\n- Their frustrations\n- Their behavior\nSimple Example Suppose you're building a Local Tutor App (Localy). Persona Name: Rahul Sharma Age: 32 Occupation: Working Professional Location: Kolkata Goals\n- Find a tutor near his home.\n- Compare tutor ratings.\nPain Points\n- Difficult to find trusted tutors.\n- No easy way to compare tutors.\nTech Skill\n- Comfortable with online payments.",
     "diagrams": []
   },
   {
     "id": 21,
     "category": "React",
     "question": "what is UseState?",
-    "answer": "useState is a React Hook used to add state to functional components. It returns an array\ncontaining the current state value and a setter function to update that value. When the state\nchanges using the setter function, React automatically re-renders the component and updates\nthe UI.",
+    "answer": "useState is a React Hook used to add state to functional components. It returns an array containing the current state value and a setter function to update that value. When the state changes using the setter function, React automatically re-renders the component and updates the UI.",
     "diagrams": []
   },
   {
     "id": 22,
     "category": "React",
     "question": "what is UseEffect?",
-    "answer": "useEffect is a React Hook used to perform side effects in a component.A side effect is\nanything that happens outside of rendering UI, such as:\n- Fetching API data\n- Calling a backend service\n- Setting a timer\n- Adding event listeners\n- Updating the document title",
+    "answer": "useEffect is a React Hook used to perform side effects in a component.A side effect is anything that happens outside of rendering UI, such as:\n- Fetching API data\n- Calling a backend service\n- Setting a timer\n- Adding event listeners\n- Updating the document title",
     "diagrams": []
   },
   {
     "id": 23,
     "category": "React",
     "question": "What is useMemo?",
-    "answer": "useMemo is a React Hook used to cache (memorize) the result of an\nexpensive calculation so it doesn't run on every render.\nconst memoizedValue = useMemo(() => {\nreturn expensiveCalculation();\n}, [dependency]);\nconst total = useMemo(() => count * 2, [count]);\nuseMemo remembers a calculated value and recalculates it only when\nneeded.",
+    "answer": "useMemo is a React Hook used to cache (memorize) the result of an expensive calculation so it doesn't run on every render. const memoizedValue = useMemo(() => { return expensiveCalculation(); }, [dependency]); const total = useMemo(() => count * 2, [count]); useMemo remembers a calculated value and recalculates it only when needed.",
     "diagrams": []
   },
   {
     "id": 24,
     "category": "React",
     "question": "What is useCallback?",
-    "answer": "useCallback is a React Hook used to cache (memorize) a function so\nReact doesn't create a new function on every render.\nconst memoizedFunction = useCallback(() => {\n// function code\n}, [dependency]);\nconst addToCart = useCallback((product) => {\ndispatch(addProduct(product));\n}, []);\nOr\nconst handleClick = useCallback(() => {\nconsole.log(\"clicked\");\n}, []);\nuseCallback remembers a function and recreates it only when needed.",
+    "answer": "useCallback is a React Hook used to cache (memorize) a function so React doesn't create a new function on every render. const memoizedFunction = useCallback(() => { // function code }, [dependency]); const addToCart = useCallback((product) => { dispatch(addProduct(product)); }, []); Or const handleClick = useCallback(() => { console.log(\"clicked\"); }, []); useCallback remembers a function and recreates it only when needed.",
     "diagrams": []
   },
   {
     "id": 25,
     "category": "React",
     "question": "What is Vertual DOM?",
-    "answer": "Virtual DOM (VDOM) is a lightweight copy of the real DOM that React\nkeeps in memory.\nInstead of updating the browser's DOM directly, React:\n1. Creates a Virtual DOM.\n2. Detects what changed.\n3. Updates only the changed parts in the Real DOM.\nThis makes React fast and efficient.",
+    "answer": "Virtual DOM (VDOM) is a lightweight copy of the real DOM that React keeps in memory. Instead of updating the browser's DOM directly, React:\n1. Creates a Virtual DOM.\n2. Detects what changed.\n3. Updates only the changed parts in the Real DOM.\nThis makes React fast and efficient.",
     "diagrams": []
   },
   {
     "id": 26,
     "category": "React",
     "question": "How to optimise react application?",
-    "answer": "1. Use useMemo()\n```javascript\nconst totalPrice = useMemo(() => {\nreturn products.reduce((sum, p) => sum + p.price, 0);\n}, [products]);\n```\nUse when: Heavy calculations are causing slow renders.\n2. Use useCallback()\nCache functions to prevent unnecessary re-renders of child components.\nconsole.log(\"Added\");\n}, []);\nUse when: Passing functions as props to child components.\n4. Code Splitting & Lazy Loading\nLoad components only when needed.\n```javascript\nimport { lazy, Suspense } from \"react\";\nconst ProductPage = lazy(() => import(\"./ProductPage\"));\n<Suspense fallback={<div>Loading...</div>}>\n<ProductPage />\n</Suspense>;\n```\nThis reduces the initial bundle size.\n5. Optimize Images\n```html\n<img\nsrc=\"image.webp\"\nloading=\"lazy\"\nalt=\"Product\"\n/>\n```\n6. Debounce Search Inputs\nAvoid API calls on every keystroke.\n```javascript\nconst debouncedSearch = debounce(searchUsers, 500);\n```\nExample:\n- User types \"React\"\n- API called once after typing stops\nNot 5 times.\n7. Optimize API Calls\nUse caching libraries such as:\n- <a href=\"https://tanstack.com/query?utm_source=chatgpt.com\" target=\"_blank\">TanStack Query </a>\n- <a href=\"https://swr.vercel.app?utm_source=chatgpt.com\" target=\"_blank\">SWR </a>\nBenefits:\n- Caching\n- Background refetching\n- Deduplication\n- Better performance\n7. Keep State Close to Where It's Needed",
+    "answer": "1. Use useMemo()\n\n```javascript\nconst totalPrice = useMemo(() => {\nreturn products.reduce((sum, p) => sum + p.price, 0);\n}, [products]);\n```\nUse when: Heavy calculations are causing slow renders.\n2. Use useCallback()\nCache functions to prevent unnecessary re-renders of child components. console.log(\"Added\"); }, []); Use when: Passing functions as props to child components.\n4. Code Splitting & Lazy Loading\nLoad components only when needed.\n\n```javascript\nimport { lazy, Suspense } from \"react\";\nconst ProductPage = lazy(() => import(\"./ProductPage\"));\n<Suspense fallback={<div>Loading...</div>}>\n<ProductPage />\n</Suspense>;\n```\nThis reduces the initial bundle size.\n5. Optimize Images\n\n```html\n<img\nsrc=\"image.webp\"\nloading=\"lazy\"\nalt=\"Product\"\n/>\n```\n6. Debounce Search Inputs\nAvoid API calls on every keystroke.\n\n```javascript\nconst debouncedSearch = debounce(searchUsers, 500);\n```\nExample:\n- User types \"React\"\n- API called once after typing stops\nNot 5 times.\n7. Optimize API Calls\nUse caching libraries such as:\n- <a href=\"https://tanstack.com/query?utm_source=chatgpt.com\" target=\"_blank\">TanStack Query </a>\n- <a href=\"https://swr.vercel.app?utm_source=chatgpt.com\" target=\"_blank\">SWR </a>\nBenefits:\n- Caching\n- Background refetching\n- Deduplication\n- Better performance\n7. Keep State Close to Where It's Needed",
     "diagrams": []
   },
   {
     "id": 27,
     "category": "React",
     "question": "what is useContext?",
-    "answer": "useContext is a React Hook used to share data between components\nwithout passing props manually at every level.\nIt helps solve Prop Drilling.",
+    "answer": "useContext is a React Hook used to share data between components without passing props manually at every level. It helps solve Prop Drilling.",
     "diagrams": [
       "assets/images/8.png",
       "assets/images/9.png",
@@ -213,7 +213,7 @@
     "id": 28,
     "category": "React",
     "question": "What is Mounting and Unmounting in React?",
-    "answer": "Mounting = Component Enters the Screen\nWhen a component is created and displayed in the browser for the first\ntime, it is called Mounting.\nUnmounting = Component Leaves the Screen\nWhen a component is removed from the browser screen, it is called Unmounting.\nExample:\n- Navigate from Home page to About page.\n- Home component is removed.\n- Home component is unmounted.\nMounting\n- User opens Product Details page.\n- API call runs.\n- Product data loads.\nUnmounting\n- User leaves the page.\n- Cleanup runs.\n- Timers, subscriptions, or listeners are removed.\nWhy is Unmounting Important?\n- Memory leaks\n- Unnecessary API calls\n- Running timers in the background\n- Event listeners staying active",
+    "answer": "Mounting = Component Enters the Screen When a component is created and displayed in the browser for the first time, it is called Mounting. Unmounting = Component Leaves the Screen When a component is removed from the browser screen, it is called Unmounting. Example:\n- Navigate from Home page to About page.\n- Home component is removed.\n- Home component is unmounted.\nMounting\n- User opens Product Details page.\n- API call runs.\n- Product data loads.\nUnmounting\n- User leaves the page.\n- Cleanup runs.\n- Timers, subscriptions, or listeners are removed.\nWhy is Unmounting Important?\n- Memory leaks\n- Unnecessary API calls\n- Running timers in the background\n- Event listeners staying active",
     "diagrams": [
       "assets/images/11.png",
       "assets/images/12.png",
@@ -224,42 +224,42 @@
     "id": 29,
     "category": "JavaScript",
     "question": "What is Semantic HTML?",
-    "answer": "Semantic HTML means using HTML elements according to their meaning and purpose, rather\nthan just for styling or layout.\nSemantic tags clearly describe the content they contain, making the code easier for developers,\nbrowsers, search engines, and assistive technologies to understand.",
+    "answer": "Semantic HTML means using HTML elements according to their meaning and purpose, rather than just for styling or layout. Semantic tags clearly describe the content they contain, making the code easier for developers, browsers, search engines, and assistive technologies to understand.",
     "diagrams": []
   },
   {
     "id": 30,
     "category": "JavaScript",
     "question": "What is DOM (Document Object Model)?",
-    "answer": "The DOM is a tree-like representation of an HTML document created by the browser.\nJavaScript uses the DOM to read, modify, add, or remove elements from a webpage.",
+    "answer": "The DOM is a tree-like representation of an HTML document created by the browser. JavaScript uses the DOM to read, modify, add, or remove elements from a webpage.",
     "diagrams": []
   },
   {
     "id": 31,
     "category": "JavaScript",
     "question": "What is BOM (Browser Object Model)?",
-    "answer": "The BOM allows JavaScript to interact with the browser itself, not just the webpage.\nThe BOM provides objects like:\n- window\n- location\n- history\n- navigator\n- screen\n- localStorage\n- sessionStorage",
+    "answer": "The BOM allows JavaScript to interact with the browser itself, not just the webpage. The BOM provides objects like:\n- window\n- location\n- history\n- navigator\n- screen\n- localStorage\n- sessionStorage",
     "diagrams": []
   },
   {
     "id": 32,
     "category": "JavaScript",
     "question": "What is Shadow DOM?",
-    "answer": "The Shadow DOM is a special DOM that is isolated from the main DOM.\nIt is mainly used in:\n- Web Components\n- Custom Elements\n- UI Libraries\nIt helps prevent CSS and JavaScript conflicts.\nWhy Shadow DOM?\nImagine your website has:\nbutton {\nbackground: red;\n}\nBut a third-party component wants:\nbutton {\nbackground: blue;\n}\nWithout Shadow DOM, styles can conflict.\nWith Shadow DOM, the component's styles stay isolated.\nShadow DOM Example\n```html\n<custom-button></custom-button>\n```\nJavaScript:\n```javascript\nconst shadow =\nelement.attachShadow({ mode: \"open\" });\nshadow.innerHTML = `\n<style>\nbutton {\nbackground: blue;\ncolor: white;\n}\n</style>\n<button>Buy Now</button>\n`;\n```\nThe styles inside the Shadow DOM won't affect the rest of the page.\nShadow DOM Structure\nDocument\n└── BODY\n└── custom-button\n└── Shadow Root\n└── BUTTON\nThe button exists inside its own isolated DOM tree.",
+    "answer": "The Shadow DOM is a special DOM that is isolated from the main DOM. It is mainly used in:\n- Web Components\n- Custom Elements\n- UI Libraries\nIt helps prevent CSS and JavaScript conflicts. Why Shadow DOM? Imagine your website has: button { background: red; } But a third-party component wants: button { background: blue; } Without Shadow DOM, styles can conflict. With Shadow DOM, the component's styles stay isolated. Shadow DOM Example\n\n```html\n<custom-button></custom-button>\n```\nJavaScript:\n\n```javascript\nconst shadow =\nelement.attachShadow({ mode: \"open\" });\nshadow.innerHTML = `\n<style>\nbutton {\nbackground: blue;\ncolor: white;\n}\n</style>\n<button>Buy Now</button>\n`;\n```\nThe styles inside the Shadow DOM won't affect the rest of the page. Shadow DOM Structure Document └── BODY └── custom-button └── Shadow Root └── BUTTON The button exists inside its own isolated DOM tree.",
     "diagrams": []
   },
   {
     "id": 33,
     "category": "JavaScript",
     "question": "what is primitive and non primitive",
-    "answer": "data types\nPrimitive Data Types\nPrimitive data types store a single value directly in memory. They are immutable (cannot\nbe changed directly).\nThere are 7 primitive data types in JavaScript:\n| Data Type | Example |\n|---|---|\n| String | `\"Hello\"` |\n| Number | `100`, `3.14` |\n| Boolean | `true`, `false` |\n| Undefined | `let x;` |\n| Null | `let y = null;` |\n| Symbol | `Symbol(\"id\")` |\n| BigInt | `12345678901234567890n` |\nExample\nlet name = \"Bicky\";\nlet age = 34;\nlet isDeveloper = true;\nCharacteristics\nStores actual value directly\nImmutable\nCompared by value\nlet a = 10;\nlet b = 10;\nconsole.log(a === b); // true\nNon-primitive data types store references (memory addresses) instead of the actual value.\nMain non-primitive types:\n| Data Type | Example |\n|---|---|\n| Object | `{ name: \"Bicky\" }` |\n| Array | `[1, 2, 3]` |\n| Function | `function hello() {}` |\n| Date | `new Date()` |\n| Map | `new Map()` |\n| Set | `new Set()` |\nExample\n```javascript\nlet user = {\nname: \"Bicky\",\nage: 34\n};\n```\nCharacteristics\nStores reference (memory address)\nMutable\nCompared by reference\n```javascript\nlet obj1 = { name: \"Bicky\" };\nlet obj2 = { name: \"Bicky\" };\nconsole.log(obj1 === obj2); // false\n```\nEven though both objects contain the same data, they occupy different memory locations.",
+    "answer": "data types Primitive Data Types Primitive data types store a single value directly in memory. They are immutable (cannot be changed directly). There are 7 primitive data types in JavaScript:\n| Data Type | Example |\n|---|---|\n| String | `\"Hello\"` |\n| Number | `100`, `3.14` |\n| Boolean | `true`, `false` |\n| Undefined | `let x;` |\n| Null | `let y = null;` |\n| Symbol | `Symbol(\"id\")` |\n| BigInt | `12345678901234567890n` |\nExample let name = \"Bicky\"; let age = 34; let isDeveloper = true; Characteristics Stores actual value directly Immutable Compared by value let a = 10; let b = 10; console.log(a === b); // true Non-primitive data types store references (memory addresses) instead of the actual value. Main non-primitive types:\n| Data Type | Example |\n|---|---|\n| Object | `{ name: \"Bicky\" }` |\n| Array | `[1, 2, 3]` |\n| Function | `function hello() {}` |\n| Date | `new Date()` |\n| Map | `new Map()` |\n| Set | `new Set()` |\nExample\n\n```javascript\nlet user = {\nname: \"Bicky\",\nage: 34\n};\n```\nCharacteristics Stores reference (memory address) Mutable Compared by reference\n\n```javascript\nlet obj1 = { name: \"Bicky\" };\nlet obj2 = { name: \"Bicky\" };\nconsole.log(obj1 === obj2); // false\n```\nEven though both objects contain the same data, they occupy different memory locations.",
     "diagrams": []
   },
   {
     "id": 34,
     "category": "JavaScript",
     "question": "What is Hoisting in JavaScript?",
-    "answer": "Hoisting is JavaScript's behavior of moving declarations to the top of their scope during\nthe memory creation phase, before the code is executed.\nImportant: Only declarations are hoisted, not initializations.",
+    "answer": "Hoisting is JavaScript's behavior of moving declarations to the top of their scope during the memory creation phase, before the code is executed. Important: Only declarations are hoisted, not initializations.",
     "diagrams": [
       "assets/images/25.png",
       "assets/images/26.png"
@@ -269,7 +269,7 @@
     "id": 35,
     "category": "JavaScript",
     "question": "Difference Between var, let, and",
-    "answer": "const?\nvar, let, and const are all used to declare variables in JavaScript, but they differ in\nscope, hoisting, reassignment, and redeclaration.",
+    "answer": "const? var, let, and const are all used to declare variables in JavaScript, but they differ in scope, hoisting, reassignment, and redeclaration.",
     "diagrams": [
       "assets/images/27.png"
     ]
@@ -287,7 +287,7 @@
     "id": 37,
     "category": "Next.js",
     "question": "What is CSR, SSR, SSG, and ISR in Next.js",
-    "answer": "CSR (Client-Side Rendering)\nIn CSR, the browser loads a basic HTML page first, then JavaScript fetches the data and\nrenders the UI.\n2. SSR (Server-Side Rendering)\nIn SSR, the server generates the HTML for every request before sending it to the browser.\n3. SSG (Static Site Generation)\nIn SSG, pages are generated once during the build process and stored as static HTML.\n4. ISR (Incremental Static Regeneration)",
+    "answer": "CSR (Client-Side Rendering) In CSR, the browser loads a basic HTML page first, then JavaScript fetches the data and renders the UI.\n2. SSR (Server-Side Rendering)\nIn SSR, the server generates the HTML for every request before sending it to the browser.\n3. SSG (Static Site Generation)\nIn SSG, pages are generated once during the build process and stored as static HTML.\n4. ISR (Incremental Static Regeneration)",
     "diagrams": [
       "assets/images/20.png",
       "assets/images/21.png",

@@ -1,53 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Modern, clean, and interactive Frontend Interview Preparation Q&A Guide covering AI, UI/UX, React, JavaScript, and Next.js.">
+  <meta name="description"
+    content="Modern, clean, and interactive Frontend Interview Preparation Q&A Guide covering AI, UI/UX, React, JavaScript, and Next.js.">
   <meta name="author" content="Frontend Architect">
   <title>Interview Preparation Guide - AI, UI/UX, React, JavaScript, Next.js</title>
 
   <!-- Google Fonts - Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
+
   <!-- Bootstrap 5.3.3 CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
   <!-- Sticky Navbar with Glassmorphism -->
   <header class="sticky-navbar py-2 px-3">
     <div class="container-fluid d-flex align-items-center justify-content-between">
-      
+
       <!-- Brand Title -->
       <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
         <div class="d-flex align-items-center gap-2">
-          <div class="bg-primary text-white rounded p-2 d-flex align-items-center justify-content-center" style="width: 38px; height: 38px;">
+          <div class="bg-primary text-white rounded p-2 d-flex align-items-center justify-content-center"
+            style="width: 38px; height: 38px;">
             <i class="fas fa-graduation-cap"></i>
           </div>
-          <span class="fs-5 fw-bold tracking-tight">Interview Preparation Guide</span>
+          <span class="fs-5 fw-bold tracking-tight d-md-flex d-none">Interview Preparation Guide</span>
         </div>
       </a>
 
       <!-- Middle Controls (Search, Total Count, Theme Indicator) -->
       <div class="d-flex align-items-center gap-3">
-        
+
         <!-- Search Input -->
         <div class="search-container-custom d-none d-md-block" style="width: 280px;">
-          <i class="fas fa-search text-muted position-absolute" style="left: 12px; top: 50%; transform: translateY(-50%); font-size: 0.85rem;"></i>
-          <input type="text" id="searchInput" class="form-control form-control-sm ps-4 pe-5 rounded-pill" placeholder="Search Q&A... (Ctrl + F)">
+          <i class="fas fa-search text-muted position-absolute"
+            style="left: 12px; top: 50%; transform: translateY(-50%); font-size: 0.85rem;"></i>
+          <input type="text" id="searchInput" class="form-control form-control-sm ps-5 pe-5 rounded-pill"
+            placeholder="Search Q&A... (Ctrl + F)">
           <kbd class="search-shortcut">Ctrl+F</kbd>
         </div>
 
         <!-- Total Questions count -->
-        <div class="d-flex align-items-center bg-light border rounded-pill px-3 py-1 text-muted fw-semibold" style="font-size: 0.85rem;">
+        <div class="d-flex align-items-center bg-light border rounded-pill px-3 py-1 text-muted fw-semibold"
+          style="font-size: 0.85rem;">
           <span class="me-1">Total:</span>
           <span class="badge bg-primary rounded-pill total-questions-badge">0</span>
         </div>
@@ -59,13 +69,14 @@
         </div>
 
         <!-- Mobile Sidebar Toggle -->
-        <button class="btn btn-outline-secondary btn-sm d-md-none rounded-pill" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileSidebar" aria-controls="mobileSidebar" aria-label="Toggle navigation">
+        <button class="btn btn-outline-secondary btn-sm d-md-none rounded-pill" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#mobileSidebar" aria-controls="mobileSidebar" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
         </button>
       </div>
 
     </div>
-    
+
     <!-- Top Scroll reading progress bar container -->
     <div class="scroll-progress-container">
       <div id="scrollProgress" class="scroll-progress-bar"></div>
@@ -78,16 +89,19 @@
       <div class="hero-subtitle mb-2">Frontend Interview Preparation</div>
       <h1 class="hero-title">Master Frontend Technical Interviews</h1>
       <p class="text-muted col-md-8 mx-auto mb-4" style="font-size: 1.05rem;">
-        A premium curated question and answer guide covering AI systems, UI/UX metrics, React architectures, Core JavaScript, and Next.js optimizations.
+        A premium curated question and answer guide covering AI systems, UI/UX metrics, React architectures, Core
+        JavaScript, and Next.js optimizations.
       </p>
       <div class="d-flex align-items-center justify-content-center gap-3 flex-wrap">
         <div class="bg-white border rounded px-3 py-2 shadow-sm d-flex align-items-center gap-2">
           <i class="fas fa-circle-nodes text-primary"></i>
-          <span class="text-muted fw-semibold" style="font-size: 0.9rem;">Categories: <strong class="text-dark">5</strong></span>
+          <span class="text-muted fw-semibold" style="font-size: 0.9rem;">Categories: <strong
+              class="text-dark">5</strong></span>
         </div>
         <div class="bg-white border rounded px-3 py-2 shadow-sm d-flex align-items-center gap-2">
           <i class="fas fa-question-circle text-primary"></i>
-          <span class="text-muted fw-semibold" style="font-size: 0.9rem;">Questions: <strong class="text-dark total-questions-badge">0</strong></span>
+          <span class="text-muted fw-semibold" style="font-size: 0.9rem;">Questions: <strong
+              class="text-dark total-questions-badge">0</strong></span>
         </div>
       </div>
     </div>
@@ -96,21 +110,25 @@
   <!-- Mobile Search Container -->
   <div class="container d-md-none py-3">
     <div class="search-container-custom">
-      <i class="fas fa-search text-muted position-absolute" style="left: 14px; top: 50%; transform: translateY(-50%);"></i>
-      <input type="text" id="searchInputMobile" class="form-control form-control-lg ps-5 rounded" placeholder="Search Q&A..." oninput="document.getElementById('searchInput').value = this.value; window.Search.performSearch(this.value);">
+      <i class="fas fa-search text-muted position-absolute"
+        style="left: 14px; top: 50%; transform: translateY(-50%);"></i>
+      <input type="text" id="searchInputMobile" class="form-control form-control-lg ps-5 rounded"
+        placeholder="Search Q&A..."
+        oninput="document.getElementById('searchInput').value = this.value; window.Search.performSearch(this.value);">
     </div>
   </div>
 
   <!-- Main Grid Content area -->
   <main class="container-fluid py-4 px-md-4">
     <div class="row g-4">
-      
+
       <!-- Desktop Left Sidebar -->
       <aside class="col-md-4 col-xl-3 d-none d-md-block sidebar-column">
         <div class="sidebar-sticky">
-          
-          <h5 class="fw-bold mb-3 text-uppercase text-muted" style="font-size: 0.8rem; letter-spacing: 0.05em;">Categories</h5>
-          
+
+          <h5 class="fw-bold mb-3 text-uppercase text-muted" style="font-size: 0.8rem; letter-spacing: 0.05em;">
+            Categories</h5>
+
           <nav class="nav flex-column mb-4">
             <a id="catLink-ai" href="#aiSection" class="category-nav-link active">
               <span><i class="fas fa-brain me-2"></i> AI</span>
@@ -134,7 +152,8 @@
             </a>
           </nav>
 
-          <h5 class="fw-bold mb-3 text-uppercase text-muted" style="font-size: 0.8rem; letter-spacing: 0.05em;">Quick Actions</h5>
+          <h5 class="fw-bold mb-3 text-uppercase text-muted" style="font-size: 0.8rem; letter-spacing: 0.05em;">Quick
+            Actions</h5>
           <div class="d-grid gap-2">
             <button class="btn btn-primary btn-sm rounded" onclick="window.UI.expandAll()">
               <i class="fas fa-expand-arrows-alt me-1"></i> Expand All Answers
@@ -143,7 +162,7 @@
               <i class="fas fa-compress-arrows-alt me-1"></i> Collapse All Answers
             </button>
           </div>
-          
+
           <div class="mt-4 pt-3 border-top text-center text-muted" style="font-size: 0.75rem;">
             <p class="mb-1"><i class="fas fa-print me-1"></i> Press <strong>Ctrl + P</strong> for print sheet.</p>
           </div>
@@ -170,12 +189,12 @@
   <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileSidebar" aria-labelledby="mobileSidebarLabel">
     <div class="offcanvas-header border-bottom">
       <h5 class="offcanvas-title fw-bold" id="mobileSidebarLabel">
-        <i class="fas fa-graduation-cap text-primary me-2"></i> Navigation
+        <i class="fas fa-graduation-cap text-primary me-2"></i> Interview Preparation Guide
       </h5>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
-      
+
       <h6 class="fw-bold text-uppercase text-muted mb-3" style="font-size: 0.8rem;">Categories</h6>
       <nav class="nav flex-column mb-4">
         <a href="#aiSection" class="category-nav-link" data-bs-dismiss="offcanvas">
@@ -202,10 +221,12 @@
 
       <h6 class="fw-bold text-uppercase text-muted mb-3" style="font-size: 0.8rem;">Actions</h6>
       <div class="d-grid gap-2">
-        <button class="btn btn-primary rounded btn-sm" onclick="window.UI.expandAll(); bootstrap.Offcanvas.getInstance(document.getElementById('mobileSidebar')).hide();">
+        <button class="btn btn-primary rounded btn-sm"
+          onclick="window.UI.expandAll(); bootstrap.Offcanvas.getInstance(document.getElementById('mobileSidebar')).hide();">
           <i class="fas fa-expand-arrows-alt me-1"></i> Expand All Answers
         </button>
-        <button class="btn btn-outline-secondary rounded btn-sm" onclick="window.UI.collapseAll(); bootstrap.Offcanvas.getInstance(document.getElementById('mobileSidebar')).hide();">
+        <button class="btn btn-outline-secondary rounded btn-sm"
+          onclick="window.UI.collapseAll(); bootstrap.Offcanvas.getInstance(document.getElementById('mobileSidebar')).hide();">
           <i class="fas fa-compress-arrows-alt me-1"></i> Collapse All Answers
         </button>
       </div>
@@ -217,7 +238,8 @@
   <footer class="bg-white border-top py-4 text-center mt-5 text-muted" style="font-size: 0.85rem;">
     <div class="container">
       <p class="mb-1">&copy; 2026 Interview Preparation Guide. All Rights Reserved.</p>
-      <p class="mb-0 text-muted" style="font-size: 0.75rem;">Redesigned & Modernized with Premium Accessibility and Responsive UX.</p>
+      <p class="mb-0 text-muted" style="font-size: 0.75rem;">Redesigned & Modernized with Premium Accessibility and
+        Responsive UX.</p>
     </div>
   </footer>
 
@@ -227,7 +249,9 @@
   </button>
 
   <!-- Bootstrap 5.3.3 JS Bundle -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 
   <!-- Application JS modules -->
   <script src="js/ui.js?v=1.0.1"></script>
@@ -247,26 +271,26 @@
           }
         });
       };
-      
+
       // Hook into input events
       const search = document.getElementById('searchInput');
       if (search) {
         search.addEventListener('input', updateMobileCounters);
       }
-      
+
       // Initial trigger after data loading
       setTimeout(updateMobileCounters, 1000);
-      
+
       // Desktop Sidebar Active category scrolling indicator
       const links = document.querySelectorAll('.category-nav-link');
-      
+
       const updateActiveLink = () => {
         const sections = document.querySelectorAll('.category-section');
         let currentSecId = '';
-        
+
         // Check if we are at the bottom of the page
         const isAtBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 60;
-        
+
         if (isAtBottom) {
           // Set last visible section as active
           for (let i = sections.length - 1; i >= 0; i--) {
@@ -284,7 +308,7 @@
             }
           });
         }
-        
+
         if (currentSecId) {
           links.forEach(l => {
             const targetId = l.getAttribute('href').replace('#', '') + 'Section';
@@ -298,7 +322,7 @@
       };
 
       window.addEventListener('scroll', updateActiveLink);
-      
+
       // Instantly set clicked link as active
       links.forEach(link => {
         link.addEventListener('click', () => {
@@ -306,10 +330,11 @@
           link.classList.add('active');
         });
       });
-      
+
       // Initial call to set active link
       setTimeout(updateActiveLink, 1000);
     });
   </script>
 </body>
+
 </html>

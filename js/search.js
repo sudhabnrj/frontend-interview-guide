@@ -38,13 +38,11 @@ const Search = {
         
         // Restore collapse state
         const newCollapseEl = card.querySelector('.collapse');
-        const expandBtn = card.querySelector('.btn-card-action[data-bs-toggle="collapse"]');
+        const toggleTrigger = card.querySelector('.question-toggle-trigger');
         if (newCollapseEl && isShown) {
           newCollapseEl.classList.add('show');
-          if (expandBtn) {
-            expandBtn.innerHTML = '<i class="fas fa-chevron-up"></i> Collapse';
-            expandBtn.classList.add('active-expand');
-            expandBtn.setAttribute('aria-expanded', 'true');
+          if (toggleTrigger) {
+            toggleTrigger.setAttribute('aria-expanded', 'true');
           }
         }
       }

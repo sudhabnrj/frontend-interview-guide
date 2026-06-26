@@ -127,12 +127,12 @@ const App = {
           </div>
         </div>
         <div class="card-body-clean">
-          <h3 class="card-title-text">${q.question}</h3>
+          <div class="question-toggle-trigger" data-bs-toggle="collapse" data-bs-target="#collapse-${q.id}" aria-expanded="false" aria-controls="collapse-${q.id}">
+            <h3 class="card-title-text">${q.question}</h3>
+            <span class="collapse-arrow"><i class="fas fa-chevron-down"></i></span>
+          </div>
           
           <div class="d-flex flex-wrap gap-2 mt-3">
-            <button class="btn-card-action" data-bs-toggle="collapse" data-bs-target="#collapse-${q.id}" aria-expanded="false" aria-controls="collapse-${q.id}">
-              <i class="fas fa-chevron-down"></i> Expand
-            </button>
             <button class="btn-card-action" onclick="App.copyQuestion(${q.id})">
               <i class="far fa-copy"></i> Copy Q
             </button>
@@ -252,11 +252,9 @@ const App = {
     container.addEventListener('show.bs.collapse', (e) => {
       const card = e.target.closest('.question-card');
       if (card) {
-        const btn = card.querySelector('[data-bs-toggle="collapse"]');
-        if (btn) {
-          btn.innerHTML = '<i class="fas fa-chevron-up"></i> Collapse';
-          btn.classList.add('active-expand');
-          btn.setAttribute('aria-expanded', 'true');
+        const trigger = card.querySelector('.question-toggle-trigger');
+        if (trigger) {
+          trigger.setAttribute('aria-expanded', 'true');
         }
       }
     });
@@ -264,11 +262,9 @@ const App = {
     container.addEventListener('hide.bs.collapse', (e) => {
       const card = e.target.closest('.question-card');
       if (card) {
-        const btn = card.querySelector('[data-bs-toggle="collapse"]');
-        if (btn) {
-          btn.innerHTML = '<i class="fas fa-chevron-down"></i> Expand';
-          btn.classList.remove('active-expand');
-          btn.setAttribute('aria-expanded', 'false');
+        const trigger = card.querySelector('.question-toggle-trigger');
+        if (trigger) {
+          trigger.setAttribute('aria-expanded', 'false');
         }
       }
     });

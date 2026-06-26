@@ -17,7 +17,7 @@
     "id": 3,
     "category": "AI",
     "question": "What is LLM? How do LLMs generate responses?",
-    "answer": "LLM (Large Language Model) is an AI model trained on huge amounts of text data. It generates responses by:\n1. Reading your prompt.\n2. Breaking text into tokens.\n3. Predicting the most likely next token.\n4. Repeating the process until a complete answer is formed.\nExample: Input: React is a JavaScript _____ LLM predicts: library",
+    "answer": "LLM (Large Language Model) is an AI model trained on huge amounts of text data. It generates responses by:\n1. Reading your prompt.\n2. Breaking text into tokens.\n3. Predicting the most likely next token.\n4. Repeating the process until a complete answer is formed.\nExample: Input: React is a JavaScript _____ LLM \npredicts: library",
     "diagrams": []
   },
   {
@@ -31,14 +31,14 @@
     "id": 5,
     "category": "AI",
     "question": "What are Hallucinations?",
-    "answer": "Hallucinations occur when an AI model generates information that sounds correct and confident but is actually false, inaccurate, or completely made up. Why Do Hallucinations Happen?\n1. Incomplete training data\n2. Ambiguous questions\n3. Lack of up-to-date information\n4. The model predicts likely text, not verified facts\n5. Missing context\nHow to Reduce Hallucinations?\n- Verify information from official documentation.\n- Cross-check code examples.\n- Use Retrieval-Augmented Generation (RAG).\n- Provide clear and detailed prompts.\n- Ask the model for sources or references.",
+    "answer": "When an AI model generates information that sounds correct and confident but it is actually false, inaccurate, or completely made up. Why Do Hallucinations Happen?\n1. Incomplete training data\n2. Ambiguous questions\n3. Lack of up-to-date information\n4. The model predicts likely text, not verified facts\n5. Missing context\nHow to Reduce Hallucinations?\n- Verify information from official documentation.\n- Cross-check code examples.\n- Use Retrieval-Augmented Generation (RAG).\n- Provide clear and detailed prompts.\n- Ask the model for sources or references.",
     "diagrams": []
   },
   {
     "id": 6,
     "category": "AI",
     "question": "What is a Context Window?",
-    "answer": "A context window is the amount of information (measured in tokens) that an AI model can remember and use at one time while generating a response. Think of it as the AI's short-term memory during a conversation. Simple Example Imagine you're talking to a friend. You say: Later you ask: What's my name? Similarly, an AI remembers information that fits within its context window.",
+    "answer": "A context window is the amount of information (measured in tokens) that an AI model can remember and use at one time while generating a response. \nThink of it as the AI's short-term memory during a conversation. \nSimple Example Imagine you're talking to a friend. \nYou say: My name is Jon. \nLater you ask: \nWhat's my name? \nYour friend remembers because it was mentioned recently.  \nSimilarly, an AI remembers information that fits within its context window.",
     "diagrams": []
   },
   {

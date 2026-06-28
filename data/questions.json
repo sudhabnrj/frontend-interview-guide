@@ -3,7 +3,7 @@
     "id": 1,
     "category": "AI",
     "question": "what is vibe coading?",
-    "answer": "Vibe Coding is a modern way of building software where you describe what you want in plain English and an AI generates most of the code for you. \nInstead of writing every line manually, you focus on:\n- The idea\n- The features\n- The user experience\nAnd the AI writes the implementation.",
+    "answer": "Vibe Coding is a modern way of building applications where you describe what you want in plain English and an AI generates most of the code for you. \nInstead of writing every line manually, you focus on:\n- The idea\n- The features\n- The user experience \nAnd the AI writes the implementation.",
     "diagrams": []
   },
   {
@@ -51,6 +51,13 @@
   {
     "id": 8,
     "category": "AI",
+    "question": "What is Prompt Engineering?",
+    "answer": "Prompt Engineering is the skill of writing clear, structured, and effective prompts so an AI model produces accurate, relevant, and high-quality responses.",
+    "diagrams": []
+  },
+  {
+    "id": 9,
+    "category": "AI",
     "question": "What is CRISP Prompting?",
     "answer": "CRISP Prompting is a framework for writing clear and effective AI prompts so the AI produces more accurate, structured, and useful responses. \nEach letter represents an important part of a good prompt. \nExample: \nContext: I am building a Figma Clone using Next.js 16. \nRole: Act as a Senior Frontend Architect. \nInstructions: Create a responsive dashboard layout with authentication and protected routes. \nSpecifics: Use TypeScript, Tailwind CSS, App Router, reusable components, clean folder \nPurpose: The project should be scalable, maintainable, and suitable for a production application.",
     "diagrams": [
@@ -58,33 +65,28 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "category": "AI",
     "question": "What is Good prompt?",
     "answer": "A good prompt is clear, specific, and provides enough context for the AI to understand exactly what you want. \nA bad prompt is vague, incomplete, or ambiguous, forcing the AI to guess your intent. \nBad Prompt Create a login page. \nGood Prompt Act as a Senior React Developer. Create a responsive login page using React, TypeScript, and Tailwind CSS. Include email and password fields, form validation, error messages, a loading state, and accessibility best practices. Write clean, reusable code.",
     "diagrams": []
   },
   {
-    "id": 10,
-    "category": "AI",
-    "question": "What is Prompt Engineering?",
-    "answer": "Prompt Engineering is the skill of writing clear, structured, and effective prompts so an AI model produces accurate, relevant, and high-quality responses.",
-    "diagrams": []
-  },
-  {
     "id": 11,
     "category": "AI",
-    "question": "What is Hallucination in AI?",
-    "answer": "Hallucination is when an AI generates incorrect information confidently. It is predicting the most likely response based on patterns, and sometimes those predictions are wrong. Why Does Hallucination Happen? Some common reasons are:\n- The incomplete prompt.\n- The AI lacks enough context.\n- The requested information wasn't part of its training or context.\n- The AI tries to fill in missing information instead of saying \"I don't know.\"\n1. Write Clear Prompts\nBad Prompt Explain React. Good Prompt Explain React Hooks with examples using React 19 and TypeScript. Provide Context Instead of: Fix my code. Write: I'm using React 19, TypeScript, and Vite. Here's the component and the error message. Break Large Tasks into Smaller Steps Instead of: Build a complete e-commerce website. Try:\n1. Create project structure.\n2. Build authentication.\n3. Create product listing.\n4. Add cart.\n5. Integrate payments.",
-    "diagrams": []
+    "question": "What is RAG?",
+    "answer": "RAG stands for Retrieval-Augmented Generation.\n It's a AI technique to improve answers by allowing the AI to retrieve relevant information from external sources before generating a response.",
+    "diagrams": [
+      "assets/images/rag.png"
+    ]
   },
   {
     "id": 12,
     "category": "AI",
     "question": "What is MCP Server?",
-    "answer": "MCP stands for Model Context Protocol. \nAn MCP Server is a server that allows an AI model (like ChatGPT or Claude) to securely connect to external tools, data sources, and services using a standard protocol. \nThink of it as a bridge between an AI and external systems. \nReal-Life Analogy Imagine you're a frontend developer. Normally, if you ask an AI: \"Show me all the users in my database.\" But if your company has an MCP Server connected to the database: You │ ▼ ChatGPT / Claude │ ▼ MCP Server │ ▼ Database The AI can request the data through the MCP Server (subject to permissions). \nHere is a comparison between an API and an MCP Server:\n\n| API | MCP Server |\n|---|---|\n| Used by applications | Used by AI assistants |\n| Developer calls endpoints | AI calls tools |\n| You must know API details | AI figures out which tool to use |\n| Returns raw data | AI can use the data to complete a task |\n| Example: `GET /products` | Example: `searchProducts()` |\n\nWhat Can an MCP Server Connect To? An MCP Server can expose tools such as:\n- Local files\n- Databases\n- APIs\n- GitHub repositories\n- Google Drive\n- Slack\n- Google Calendar\n- Custom business applications\nWhy Use an MCP Server? Standard way for AI to connect to tools Secure access with permissions Reusable across different AI applications Easier integration with company systems",
+    "answer": "MCP stands for Model Context Protocol. \nAn MCP Server is a server that allows an AI model (like ChatGPT or Claude) to securely connect to external tools, applications, databases, APIs, and files using a standard protocol. \nThink of it as a bridge between an AI and external systems.",
     "diagrams": [
-      "assets/images/15.png"
+      "assets/images/mcp.png"
     ]
   },
   {
@@ -95,14 +97,15 @@
     "diagrams": [
       "assets/images/17.png",
       "assets/images/18.png",
-      "assets/images/19.png"
+      "assets/images/19.png",
+      "assets/images/ai-genai-agentic-ai.png"
     ]
   },
   {
     "id": 14,
     "category": "UI / UX",
     "question": "What is low fedility and high fedility design ?",
-    "answer": "A low-fidelity design is a simple sketch or wireframe that focuses on layout, structure, and user flow rather than colors, images, or visual details. High-fidelity design is a detailed, pixel-perfect representation of the final product, including colors, typography, images, and interactions, used before development and for stakeholder approval.",
+    "answer": "A low-fidelity design is a simple sketch or wireframe that focuses on layout, structure, and user flow rather than colors, images, or visual details. \nHigh-fidelity design is a detailed, pixel-perfect representation of the final product, including colors, typography, images, and interactions, used before development and for stakeholder approval.",
     "diagrams": []
   },
   {
@@ -115,16 +118,20 @@
   {
     "id": 16,
     "category": "UI / UX",
-    "question": "how to make a responsive website",
-    "answer": "using tailwind css? styles for larger screens using responsive breakpoints. Tailwind Breakpoints sm: 640px and aabove md: 768px and aabove lg: 1024px and above xl: 1280px and above 2xl: 1536px and above",
+    "question": "how to make a responsive website using Tailwind CSS?",
+    "answer": "Tailwind CSS uses a mobile-first responsive approach. I start by designing for mobile using base utility classes, then use responsive prefixes like sm:, md:, lg:, xl:, and 2xl: to adjust layouts, typography, spacing, and visibility for larger screens. I typically combine Flexbox or Grid with utilities like grid-cols-1 md:grid-cols-2 lg:grid-cols-4 or flex-col lg:flex-row to create responsive interfaces without writing custom media queries.",
     "diagrams": []
   },
   {
     "id": 17,
     "category": "UI / UX",
     "question": "What is Design Tokens?",
-    "answer": "spacing, border radius, shadows, and breakpoints.\n1. Color Tokens\n\n```json\n{\n\"color\": {\n\"primary\": \"#2563EB\",\n\"secondary\": \"#64748B\",\n\"success\": \"#22C55E\",\n\"danger\": \"#EF4444\"\n}\n}\n```\nUsage: background-color: var(--color-primary);",
-    "diagrams": []
+    "answer": "Design Tokens are small, reusable design values stored as variables. They ensure that colors, spacing, typography, border radius, shadows, and other design properties stay consistent across an application.",
+    "diagrams": [
+      "assets/images/design-token1.png",
+      "assets/images/design-token2.png",
+      "assets/images/design-token3.png"
+    ]
   },
   {
     "id": 18,
@@ -146,7 +153,7 @@
     "id": 19,
     "category": "UI / UX",
     "question": "How to change the Bootstrap CSS default color?",
-    "answer": "a. Override Bootstrap CSS (Quick Method) .btn-primary { background-color: #ff5722; border-color: #ff5722; } .btn-primary:hover { background-color: #e64a19; } b. Use CSS Variables (Bootstrap 5)\n\n```css\n:root {\n--bs-primary: #ff5722;\n}\n```\nc. Change Bootstrap SCSS Variables (Best Practice) Before Importing Bootstrap\n\n```scss\n$primary: #ff5722;\n$secondary: #009688;\n$success: #4caf50;\n$danger: #f44336;\n@import \"bootstrap\";\n```\nBootstrap will generate all button, alert, badge, and utility classes using your custom colors.\n\n```scss\n$theme-colors: (\n\"primary\": #ff5722,\n\"secondary\": #607d8b,\n\"success\": #4caf50,\n\"danger\": #f44336,\n\"warning\": #ffc107,\n\"info\": #2196f3\n);\n```\nChange multiple theme color.",
+    "answer": "a. Override Bootstrap CSS (Quick Method) .btn-primary { background-color: #ff5722; border-color: #ff5722; } .btn-primary:hover { background-color: #e64a19; } \nb. Use CSS Variables (Bootstrap 5)\n\n```css\n:root {\n--bs-primary: #ff5722;\n}\n```\nc. Change Bootstrap SCSS Variables (Best Practice) Before Importing Bootstrap\n\n```scss\n$primary: #ff5722;\n$secondary: #009688;\n$success: #4caf50;\n$danger: #f44336;\n@import \"bootstrap\";\n```\nBootstrap will generate all button, alert, badge, and utility classes using your custom colors.\n\n```scss\n$theme-colors: (\n\"primary\": #ff5722,\n\"secondary\": #607d8b,\n\"success\": #4caf50,\n\"danger\": #f44336,\n\"warning\": #ffc107,\n\"info\": #2196f3\n);\n```\nChange multiple theme color.",
     "diagrams": []
   },
   {
@@ -160,28 +167,33 @@
     "id": 21,
     "category": "React",
     "question": "what is UseState?",
-    "answer": "useState is a React Hook used to add state to functional components. It returns an array containing the current state value and a setter function to update that value. When the state changes using the setter function, React automatically re-renders the component and updates the UI.",
-    "diagrams": []
+    "answer": "useState is a React Hook used to create and update state in a functional component. When the state updates, React re-renders the component with the new data. \n syntax:: const [state, setState] = useState(initialValue);",
+    "diagrams": [
+      "assets/images/useState1.png"
+    ]
   },
   {
     "id": 22,
     "category": "React",
     "question": "what is UseEffect?",
     "answer": "useEffect is a React Hook used to perform side effects in a component.A side effect is anything that happens outside of rendering UI, such as:\n- Fetching API data\n- Calling a backend service\n- Setting a timer\n- Adding event listeners\n- Updating the document title",
-    "diagrams": []
+    "diagrams": [
+      "assets/images/useEffect1.png",
+      "assets/images/useEffect2.png"
+    ]
   },
   {
     "id": 23,
     "category": "React",
     "question": "What is useMemo?",
-    "answer": "useMemo is a React Hook used to cache (memorize) the result of an expensive calculation so it doesn't run on every render. const memoizedValue = useMemo(() => { return expensiveCalculation(); }, [dependency]); const total = useMemo(() => count * 2, [count]); useMemo remembers a calculated value and recalculates it only when needed.",
+    "answer": "useMemo is a React Hook used to cache (memorize) the result of an expensive calculation so it doesn't run on every render. \nconst memoizedValue = useMemo(() => { return expensiveCalculation(); }, [dependency]); \nconst total = useMemo(() => count * 2, [count]); \nuseMemo remembers a calculated value and recalculates it only when needed.",
     "diagrams": []
   },
   {
     "id": 24,
     "category": "React",
     "question": "What is useCallback?",
-    "answer": "useCallback is a React Hook used to cache (memorize) a function so React doesn't create a new function on every render. const memoizedFunction = useCallback(() => { // function code }, [dependency]); const addToCart = useCallback((product) => { dispatch(addProduct(product)); }, []); Or const handleClick = useCallback(() => { console.log(\"clicked\"); }, []); useCallback remembers a function and recreates it only when needed.",
+    "answer": "useCallback is a React Hook used to cache (memorize) a function so React doesn't create a new function on every render. \nconst memoizedFunction = useCallback(() => { // function code }, [dependency]); // \nconst addToCart = useCallback((product) => { dispatch(addProduct(product)); }, []); \nOr // \nconst handleClick = useCallback(() => { console.log(\"clicked\"); }, []); \nuseCallback remembers a function and recreates it only when needed.",
     "diagrams": []
   },
   {
@@ -195,7 +207,7 @@
     "id": 26,
     "category": "React",
     "question": "How to optimise react application?",
-    "answer": "1. Use useMemo()\n\n```javascript\nconst totalPrice = useMemo(() => {\nreturn products.reduce((sum, p) => sum + p.price, 0);\n}, [products]);\n```\nUse when: Heavy calculations are causing slow renders.\n2. Use useCallback()\nCache functions to prevent unnecessary re-renders of child components. console.log(\"Added\"); }, []); Use when: Passing functions as props to child components.\n4. Code Splitting & Lazy Loading\nLoad components only when needed.\n\n```javascript\nimport { lazy, Suspense } from \"react\";\nconst ProductPage = lazy(() => import(\"./ProductPage\"));\n<Suspense fallback={<div>Loading...</div>}>\n<ProductPage />\n</Suspense>;\n```\nThis reduces the initial bundle size.\n5. Optimize Images\n\n```html\n<img\nsrc=\"image.webp\"\nloading=\"lazy\"\nalt=\"Product\"\n/>\n```\n6. Debounce Search Inputs\nAvoid API calls on every keystroke.\n\n```javascript\nconst debouncedSearch = debounce(searchUsers, 500);\n```\nExample:\n- User types \"React\"\n- API called once after typing stops\nNot 5 times.\n7. Optimize API Calls\nUse caching libraries such as:\n- <a href=\"https://tanstack.com/query?utm_source=chatgpt.com\" target=\"_blank\">TanStack Query </a>\n- <a href=\"https://swr.vercel.app?utm_source=chatgpt.com\" target=\"_blank\">SWR </a>\nBenefits:\n- Caching\n- Background refetching\n- Deduplication\n- Better performance\n7. Keep State Close to Where It's Needed",
+    "answer": "1. Use useMemo()\n\n```javascript\nconst totalPrice = useMemo(() => {\nreturn products.reduce((sum, p) => sum + p.price, 0);\n}, [products]);\n```\nUse when: Heavy calculations are causing slow renders.\n\n2. Use useCallback()\nCache functions to prevent unnecessary re-renders of child components. console.log(\"Added\"); }, []); \nUse when: Passing functions as props to child components.\n4. Code Splitting & Lazy Loading\nLoad components only when needed.\n\n```javascript\nimport { lazy, Suspense } from \"react\";\nconst ProductPage = lazy(() => import(\"./ProductPage\"));\n<Suspense fallback={<div>Loading...</div>}>\n<ProductPage />\n</Suspense>;\n```\nThis reduces the initial bundle size.\n5. Optimize Images\n\n```html\n<img\nsrc=\"image.webp\"\nloading=\"lazy\"\nalt=\"Product\"\n/>\n```\n6. Debounce Search Inputs\nAvoid API calls on every keystroke.\n\n```javascript\nconst debouncedSearch = debounce(searchUsers, 500);\n```\nExample:\n- User types \"React\"\n- API called once after typing stops\nNot 5 times.\n7. Optimize API Calls\nUse caching libraries such as:\n- <a href=\"https://tanstack.com/query?utm_source=chatgpt.com\" target=\"_blank\">TanStack Query </a>\n- <a href=\"https://swr.vercel.app?utm_source=chatgpt.com\" target=\"_blank\">SWR </a>\nBenefits:\n- Caching\n- Background refetching\n- Deduplication\n- Better performance\n7. Keep State Close to Where It's Needed",
     "diagrams": []
   },
   {
@@ -213,7 +225,7 @@
     "id": 28,
     "category": "React",
     "question": "What is Mounting and Unmounting in React?",
-    "answer": "Mounting = Component Enters the Screen When a component is created and displayed in the browser for the first time, it is called Mounting. Unmounting = Component Leaves the Screen When a component is removed from the browser screen, it is called Unmounting. Example:\n- Navigate from Home page to About page.\n- Home component is removed.\n- Home component is unmounted.\nMounting\n- User opens Product Details page.\n- API call runs.\n- Product data loads.\nUnmounting\n- User leaves the page.\n- Cleanup runs.\n- Timers, subscriptions, or listeners are removed.\nWhy is Unmounting Important?\n- Memory leaks\n- Unnecessary API calls\n- Running timers in the background\n- Event listeners staying active",
+    "answer": "Mounting = Component Enters the Screen When a component is created and displayed in the browser for the first time, it is called Mounting. \nUnmounting = Component Leaves the Screen When a component is removed from the browser screen, it is called Unmounting. \nExample:\n- Navigate from Home page to About page.\n- Home component is removed.\n- Home component is unmounted.\nMounting\n- User opens Product Details page.\n- API call runs.\n- Product data loads.\nUnmounting\n- User leaves the page.\n- Cleanup runs.\n- Timers, subscriptions, or listeners are removed.\nWhy is Unmounting Important?\n- Memory leaks\n- Unnecessary API calls\n- Running timers in the background\n- Event listeners staying active",
     "diagrams": [
       "assets/images/11.png",
       "assets/images/12.png",
@@ -222,69 +234,118 @@
   },
   {
     "id": 29,
-    "category": "JavaScript",
-    "question": "What is Semantic HTML?",
-    "answer": "Semantic HTML means using HTML elements according to their meaning and purpose, rather than just for styling or layout. Semantic tags clearly describe the content they contain, making the code easier for developers, browsers, search engines, and assistive technologies to understand.",
-    "diagrams": []
+    "category": "React",
+    "question": "What is the React Lifecycle?",
+    "answer": "The React Lifecycle describes the different phases a component goes through: Mounting, Updating, and Unmounting. \n",
+    "diagrams": [
+      "assets/images/lifecycle1.png",
+      "assets/images/lifecycle2.png",
+      "assets/images/lifecycle3.png",
+      "assets/images/lifecycle4.png"
+    ]
   },
   {
     "id": 30,
+    "category": "JavaScript",
+    "question": "What is Semantic HTML?",
+    "answer": "Semantic HTML means using HTML elements according to their meaning and purpose, rather than just for styling or layout. Semantic tags clearly describe the content they contain, making the code easier for developers, browsers, search engines, and assistive technologies to understand.",
+    "diagrams": [
+      "assets/images/semanticTag.png"
+    ]
+  },
+  {
+    "id": 31,
     "category": "JavaScript",
     "question": "What is DOM (Document Object Model)?",
     "answer": "The DOM is a tree-like representation of an HTML document created by the browser. JavaScript uses the DOM to read, modify, add, or remove elements from a webpage.",
     "diagrams": []
   },
   {
-    "id": 31,
+    "id": 32,
     "category": "JavaScript",
     "question": "What is BOM (Browser Object Model)?",
     "answer": "The BOM allows JavaScript to interact with the browser itself, not just the webpage. The BOM provides objects like:\n- window\n- location\n- history\n- navigator\n- screen\n- localStorage\n- sessionStorage",
     "diagrams": []
   },
   {
-    "id": 32,
+    "id": 33,
     "category": "JavaScript",
     "question": "What is Shadow DOM?",
     "answer": "The Shadow DOM is a special DOM that is isolated from the main DOM. It is mainly used in:\n- Web Components\n- Custom Elements\n- UI Libraries\nIt helps prevent CSS and JavaScript conflicts. Why Shadow DOM? Imagine your website has: button { background: red; } But a third-party component wants: button { background: blue; } Without Shadow DOM, styles can conflict. With Shadow DOM, the component's styles stay isolated. Shadow DOM Example\n\n```html\n<custom-button></custom-button>\n```\nJavaScript:\n\n```javascript\nconst shadow =\nelement.attachShadow({ mode: \"open\" });\nshadow.innerHTML = `\n<style>\nbutton {\nbackground: blue;\ncolor: white;\n}\n</style>\n<button>Buy Now</button>\n`;\n```\nThe styles inside the Shadow DOM won't affect the rest of the page. Shadow DOM Structure Document └── BODY └── custom-button └── Shadow Root └── BUTTON The button exists inside its own isolated DOM tree.",
     "diagrams": []
   },
   {
-    "id": 33,
-    "category": "JavaScript",
-    "question": "what is primitive and non primitive",
-    "answer": "data types Primitive Data Types Primitive data types store a single value directly in memory. They are immutable (cannot be changed directly). There are 7 primitive data types in JavaScript:\n| Data Type | Example |\n|---|---|\n| String | `\"Hello\"` |\n| Number | `100`, `3.14` |\n| Boolean | `true`, `false` |\n| Undefined | `let x;` |\n| Null | `let y = null;` |\n| Symbol | `Symbol(\"id\")` |\n| BigInt | `12345678901234567890n` |\nExample let name = \"Bicky\"; let age = 34; let isDeveloper = true; Characteristics Stores actual value directly Immutable Compared by value let a = 10; let b = 10; console.log(a === b); // true Non-primitive data types store references (memory addresses) instead of the actual value. Main non-primitive types:\n| Data Type | Example |\n|---|---|\n| Object | `{ name: \"Bicky\" }` |\n| Array | `[1, 2, 3]` |\n| Function | `function hello() {}` |\n| Date | `new Date()` |\n| Map | `new Map()` |\n| Set | `new Set()` |\nExample\n\n```javascript\nlet user = {\nname: \"Bicky\",\nage: 34\n};\n```\nCharacteristics Stores reference (memory address) Mutable Compared by reference\n\n```javascript\nlet obj1 = { name: \"Bicky\" };\nlet obj2 = { name: \"Bicky\" };\nconsole.log(obj1 === obj2); // false\n```\nEven though both objects contain the same data, they occupy different memory locations.",
-    "diagrams": []
-  },
-  {
     "id": 34,
     "category": "JavaScript",
+    "question": "what is primitive and non primitive data types",
+    "answer": " Primitive data types store a single value directly in memory. They are immutable (cannot be changed directly). There are 7 primitive data types in JavaScript:\n| Data Type | Example |\n|---|---|\n| String | `\"Hello\"` |\n| Number | `100`, `3.14` |\n| Boolean | `true`, `false` |\n| Undefined | `let x;` |\n| Null | `let y = null;` |\n| Symbol | `Symbol(\"id\")` |\n| BigInt | `12345678901234567890n` |\nExample let name = \"Bicky\"; let age = 34; let isDeveloper = true; Characteristics Stores actual value directly Immutable Compared by value let a = 10; let b = 10; console.log(a === b); // true Non-primitive data types store references (memory addresses) instead of the actual value. Main non-primitive types:\n| Data Type | Example |\n|---|---|\n| Object | `{ name: \"Bicky\" }` |\n| Array | `[1, 2, 3]` |\n| Function | `function hello() {}` |\n| Date | `new Date()` |\n| Map | `new Map()` |\n| Set | `new Set()` |\nExample\n\n```javascript\nlet user = {\nname: \"Bicky\",\nage: 34\n};\n```\nCharacteristics Stores reference (memory address) Mutable Compared by reference\n\n```javascript\nlet obj1 = { name: \"Bicky\" };\nlet obj2 = { name: \"Bicky\" };\nconsole.log(obj1 === obj2); // false\n```\nEven though both objects contain the same data, they occupy different memory locations.",
+    "diagrams": [
+      "assets/images/primitive-data.png",
+      "assets/images/nonprimitive-data.png"
+      
+    ]
+  },
+  {
+    "id": 35,
+    "category": "JavaScript",
     "question": "What is Hoisting in JavaScript?",
-    "answer": "Hoisting is JavaScript's behavior of moving declarations to the top of their scope during the memory creation phase, before the code is executed. Important: Only declarations are hoisted, not initializations.",
+    "answer": "Hoisting is JavaScript's behavior of moving declarations to the top of their scope during the memory creation phase, before the code is executed. \nImportant: Only declarations are hoisted, not initializations.",
     "diagrams": [
       "assets/images/25.png",
       "assets/images/26.png"
     ]
   },
   {
-    "id": 35,
+    "id": 36,
     "category": "JavaScript",
-    "question": "Difference Between var, let, and",
-    "answer": "const? var, let, and const are all used to declare variables in JavaScript, but they differ in scope, hoisting, reassignment, and redeclaration.",
+    "question": "Difference Between var, let, and const?",
+    "answer": " var, let, and const are all used to declare variables in JavaScript, but they differ in scope, hoisting, reassignment, and redeclaration.",
     "diagrams": [
       "assets/images/27.png"
     ]
   },
   {
-    "id": 36,
+    "id": 37,
+    "category": "JavaScript",
+    "question": "What is IIFE?",
+    "answer": "IIFE stands for Immediately Invoked Function Expression. \n An IIFE is a JavaScript function that runs immediately after it is defined. It is commonly used to create a private scope and avoid polluting the global namespace.",
+    "diagrams": [
+      "assets/images/iife1.png",
+      "assets/images/iife2.png"
+    ]
+  },
+  {
+    "id": 38,
+    "category": "JavaScript",
+    "question": "What is Event Loop?",
+    "answer": "The Event Loop is a mechanism in JavaScript that allows it to handle asynchronous operations (like API calls, timers, and user events) without blocking the main thread.",
+    "diagrams": [
+      "assets/images/eventloop2.jpg",
+      "assets/images/eventloop1.png"
+    ]
+  },
+  {
+    "id": 39,
+    "category": "JavaScript",
+    "question": "What is Event Delegation?",
+    "answer": "Event Delegation is a JavaScript technique where you attach a single event listener to a parent element instead of adding event listeners to each child element individually.", 
+    "diagrams": [
+      "assets/images/delegation1.png",
+      "assets/images/delegation2.png",
+      "assets/images/delegation3.png"
+    ]
+  },
+  {
+    "id": 40,
     "category": "Next.js",
     "question": "Difference Between React and Next.js",
-    "answer": "Here is a comparison between React and Next.js:\n\n| Feature | React | Next.js |\n|---|---|---|\n| **Type** | JavaScript Library | React Framework |\n| **Main Purpose** | Building User Interfaces (UI) | Building complete web applications |\n| **Rendering** | Client-Side Rendering (CSR) by default | Supports CSR, SSR, SSG, and ISR |\n| **Routing** | Requires a library like React Router | Built-in file-based routing |\n| **SEO** | Needs extra work / configuration | Better SEO out-of-the-box with Server-Side Rendering |\n| **Setup** | Manual project setup (Webpack/Vite) | Zero config, many features built-in |\n| **Ecosystem** | You choose and integrate extra libraries | Includes routing, API routes, image optimization, and more |",
+    "answer": "React is a JavaScript library for building user interfaces. \nNext.js is a React framework that adds features like routing, server-side rendering, API routes, and performance optimizations. ", 
     "diagrams": [
       "assets/images/16.png"
     ]
   },
   {
-    "id": 37,
+    "id": 41,
     "category": "Next.js",
     "question": "What is CSR, SSR, SSG, and ISR in Next.js",
     "answer": "CSR (Client-Side Rendering) In CSR, the browser loads a basic HTML page first, then JavaScript fetches the data and renders the UI.\n2. SSR (Server-Side Rendering)\nIn SSR, the server generates the HTML for every request before sending it to the browser.\n3. SSG (Static Site Generation)\nIn SSG, pages are generated once during the build process and stored as static HTML.\n4. ISR (Incremental Static Regeneration)",

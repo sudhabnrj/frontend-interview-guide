@@ -2,7 +2,7 @@ import { Question } from '../types';
 
 export const questionsService = {
   async fetchQuestions(): Promise<Question[]> {
-    const response = await fetch('/data/questions.json');
+    const response = await fetch(`${import.meta.env.BASE_URL}data/questions.json`);
     if (!response.ok) {
       throw new Error(`Failed to load data: ${response.statusText}`);
     }

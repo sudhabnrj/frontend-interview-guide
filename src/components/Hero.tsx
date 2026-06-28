@@ -25,7 +25,7 @@ export const Hero: React.FC<HeroProps> = ({ totalQuestions }) => {
         height='100%'
       />
 
-      <div className="container mx-auto bg-transparent absolute top-1/2 -translate-y-1/2 left-0 right-0 w-full h-full">
+      <div className="container flex flex-col justify-center mx-auto bg-transparent absolute top-1/2 -translate-y-1/2 left-0 right-0 w-full h-full">
         <div className="text-xs md:text-sm font-semibold text-text-muted tracking-widest uppercase mb-2">
           Frontend Interview Preparation
         </div>

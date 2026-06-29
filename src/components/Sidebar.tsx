@@ -24,7 +24,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
   ];
 
   return (
-    <aside className="col-md-4 col-xl-4 hidden md:block sidebar-column">
+    <aside className="col-md-4 col-xl-4 hidden md:block sidebar-column ">
       <div className="sticky top-[90px] h-[calc(100vh-120px)] overflow-y-auto p-4 bg-[rgba(255,255,255,0.7)] backdrop-blur-[10px] border border-border-custom rounded-lg shadow-sidebar transition-all duration-300">
         <h5 className="font-bold mb-3 text-uppercase text-text-muted text-[0.8rem] tracking-wider uppercase">
           Categories

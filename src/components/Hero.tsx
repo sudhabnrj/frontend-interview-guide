@@ -7,7 +7,7 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ totalQuestions }) => {
   return (
-    <section className="h-[300px] border-b border-border-custom text-center relative">
+    <section className="h-[500px] md:h-[300px] border-b border-border-custom text-center relative">
 
       <DotField
         dotRadius={1.5}
